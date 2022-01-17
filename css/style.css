@@ -7,6 +7,7 @@ body{
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    background-color: black;
 }
 .bg-image{
     background-image: url('../images/bg.jpg');
@@ -17,6 +18,8 @@ body{
 .logo{
     width: 20%;
 }
+
+/* First Section */
 
 .main-heading h1{
     text-align: center;
@@ -31,4 +34,9 @@ body{
     color: white;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+/* Tools Section */
+.tools{
+    color: white;
 }
