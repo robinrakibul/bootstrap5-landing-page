@@ -19,6 +19,13 @@ body{
     width: 20%;
 }
 
+
+.section-title h1{
+    font-family: "Bebas Neue",cursive;
+    font-size: 50px;
+    border-bottom: 1px solid white;
+}
+
 /* First Section */
 
 .main-heading h1{
@@ -36,7 +43,43 @@ body{
     margin-right: 20%;
 }
 
+
 /* Tools Section */
 .tools{
     color: white;
+}
+
+/* Cards */
+.clickable-cards:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+/* Footer */
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0826;
+    color: white;
+    height: 50vh;
+    width: 100%;
+}
+
+.footer-title h1{
+    text-align: center;
+}
+.footer-title p{
+    letter-spacing: 2px;
+    text-align: center;
+}
+.footer-icons i{
+    padding: 10px;
+}
+.footer-icons i:active{
+    color: #E02C6D;
+}
+.footer-icons i:hover{
+    transform: scale(1.2);
+    transition: 0.2s ease-in;
 }
